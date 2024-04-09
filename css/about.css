@@ -1,0 +1,46 @@
+.navbar-brand {                    /* navbar */
+    margin-bottom:50px;                
+  }
+  
+  .navbar { 
+      margin-bottom:0px !important; }
+
+      .carousel img{
+     
+        height:500px;
+      }
+
+
+      .row {
+          margin-top: 20px;
+      }
+
+      .heading {
+        color: rgb(245, 151, 148);
+      }
+
+
+      .card img {
+          height:400px;
+      }
+
+
+      .footer ul {            /* footer */
+        list-style-type: none;
+        color:white;
+        }
+    
+    
+    
+    .head {
+      margin-left: 20px;
+    }
+    
+    .footer {
+      margin-top: 20px;
+      background-color:black;
+    }
+    
+    .word h1 {
+        margin-top: 55px;
+      }

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/enrol.css">
+  <link rel="stylesheet" href="../css/styles.css" >
+  <title>Enrol </title>
+  
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js"></script>
+<link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet"> <!-- JS for datepicker credits to https://stackblitz.com/edit/zfby6h-uep3wc?file=index.html -->
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger ">
+      <div class="container">
+        <a class="navbar-brand " href="index.html">
+          <img src="../images/newlogo.png" width="80" height="80" class="d-inline-block align-top" alt="Logo">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link h3" href="index.html">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link h3" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link h3" href="news.html">News</a>
+              </li>
+            
+              
+            <li class="nav-item">
+                <a class="nav-link h3" href="honours.html">Honours</a>
+            </li>
+            
+              
+            <li class="nav-item">
+                <a class="nav-link h3" href="enrol.html">Enrol</a>
+            </li>
+              
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <h1 class="header">Enrolment</h1>
+     
+    <p class="call h2">Be part of Asia's leading football academy.</p>
+
+  <div class="container form w-75 p-3 ">
+    <form class="row g-3 " >
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
+        <label for="validationDefault01" class="form-label name">Name</label>
+        <input type="text" class="form-control" id="validationDefault01" required>
+      </div>
+
+      <div class="col-md-2"></div>
+      
+
+
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
+        <label for="validationDefault02" class="form-label">Nationality</label>
+        <input type="text" class="form-control" id="validationDefault02" required>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+
+      <div class="col-md-2">
+
+      </div>
+     <div class="col-md-8 code">
+      <label for="validationDefault05" class="form-label">Date Of Birth</label>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-2">
+
+      </div>
+
+       <div class="col-md-8 code">
+        <input id="datepicker"  type="text" required>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+    
+      
+      
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
+        <label for="validationDefault03" class="form-label">Guardian/Parent Full Name</label>
+        <input type="text" class="form-control" id="validationDefault03" required>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
+        <label for="validationDefault04" class="form-label">Playing Position</label>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="validationDefault04" required>
+          <option selected disabled value="" class="h5">Choose...</option>
+          <option class="h5">Goalkeeper</option>
+          <option class="h5">Defender</option>
+          <option class="h5">Midfielder</option>
+          <option class="h5">Striker</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
+        <label for="validationDefault05" class="form-label">Current Club/Academy</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
+        <div class="form-group">
+          <label for="email" class="control-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="" required>
+          </div> 
+      </div>
+      <div class="col-md-2">
+        
+      </div>
+
+
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your Enquiry</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+          </div> 
+      </div>
+      <div class="col-md-2">
+
+      </div>
+
+      <div class="col-md-2">
+
+      </div>
+
+      <div class="col-8">
+        <div class="form-check agree">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            Agree to terms and conditions
+          </label>
+        </div>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+
+      <div class="col-md-5">
+
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-danger butt" type="submit">Sign Up</button>
+      </div>
+      
+      <div class="col-md-2">
+
+      </div>
+    </form>
+   
+  </div>
+
+
+  <div class="container text-center">
+     
+    <!--  credits from https://github.com/john-smilga/javascript-basic-projects/tree/master/12-countdown-timer/final -->           
+    <article class="gift-info">
+      <h1>UFA 2021 Football Camp</h1>
+      <h2 class="giveaway">
+       The upcoming event for aspiring footballers to gain experience from UFA
+      </h2>
+      
+      <div class="deadline">
+        <!-- days -->
+        <div class="col-md-4"></div>
+        <div class="deadline-format ">
+          <div>
+            <h4 class="days">34</h4>
+            <span>days</span>
+          </div>
+        </div>
+        <!-- end of days -->
+        <!-- days -->
+        <div class="deadline-format ">
+          <div>
+            <h4 class="hours">35</h4>
+            <span>hours</span>
+          </div>
+        </div>
+        <!-- end of days -->
+        <!-- minutes -->
+        <div class="deadline-format ">
+          <div>
+            <h4 class="minutes">34</h4>
+            <span>mins</span>
+          </div>
+        </div>
+        <!-- end of days -->
+        <!-- minutes -->
+        <div class="deadline-format">
+          <div>
+            <h4 class="seconds">34</h4>
+            <span>secs</span>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+        <!-- end of days -->
+      </div>
+    </article>
+  
+</div>
+
+
+
+
+  <div class="container-fluid">
+    <div class="row footer">
+      <div class="col-md-2">
+        <h1 class="head text-danger h3">UFA</h1>
+        <ul >
+          <li ><a href="../html/index.html" class="link-light h3 ">Home</a></li>
+          <li ><a href="../html/about.html" class="link-light h3">About Us</a></li>
+          <li ><a href="../html/news.html" class="link-light h3">News</a></li>
+          <li ><a href="../html/honours.html" class="link-light h3">Honours</a></li>  
+      </ul>
+      </div>
+      <div class="col-md-2">
+        <h1 class="head text-danger h3">Follow Us</h1>
+        <ul >
+          <li ><a href="#" class="link-light h3">Instagram</a></li>
+          <li ><a href="#" class="link-light h3">Facebook</a></li>
+          <li ><a href="#" class="link-light h3">Youtube</a></li>
+      </ul>
+      </div>
+      <div class="word col-md-3">
+        <h1 class="head text-danger h3">Don't stop when you're tired. Stop when you're done.</h1>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Js for datepicker  credits to https://stackblitz.com/edit/zfby6h-uep3wc?file=index.html -->
+        <script> 
+            var datepicker = new ej.calendars.DatePicker({ width: "150px" });   
+            datepicker.appendTo('#datepicker');
+        </script> 
+        <script src="../js/app.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="../js/bootstrap.js"></script>
+</body>
+
