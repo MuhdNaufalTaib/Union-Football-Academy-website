@@ -28,17 +28,14 @@ The Union Football Academy is a virtual football club dedicated to promoting spo
 2. Extract the files to your local host document root
 3. Make sure your web server has file permissions
 4. Make sure your installation is protected from unauthorized access
-5. You can start the quiz
+5. Ensure the all the folders are in the same directory
 
 ## Getting Started
 
 To explore the Union Football Academy website:
 
-1.
-
-## Configuration
-
-- Edit the admin.py file to customize the quiz questions and choices as well as add new users
+1. Go to the **html** folder
+2. Go to any of the html pages to start exploring the website
 
 ## Contributing
-We welcome contributions from the community! If you find a bug or want to add a new feature, please open an issue or submit a pull request.
+I welcome contributions from the community! If you find a bug or want to add a new feature, please open an issue or submit a pull request.
