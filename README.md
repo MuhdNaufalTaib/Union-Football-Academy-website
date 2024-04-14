@@ -1,6 +1,6 @@
 # Union Football Academy Website
 
-Welcome to the Union Football Academy website! This is a front-end-only website designed for showcasing information about our football club and engaging with our community.
+Welcome to the Union Football Academy website! This is a front-end-only website designed for showcasing information about our football club
 
 ## Overview
 
